@@ -1,0 +1,29 @@
+{
+    "name": "pxl-farm/sorted-linked-list",
+    "description": "The library provides sorted linked list functionality",
+    "type": "library",
+    "license": "MIT License",
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "PxlFarm\\SortedLinkedList\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PxlFarm\\SortedLinkedList\\Tests\\": "Tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "pxl",
+            "email": "pxl@pixels.farm"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
